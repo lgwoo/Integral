@@ -10,22 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            double start = 2;
+            int start = 2;
+            int end = 5;
+            int bar = 100;
 
-
-            while (true)
-            {
-                Console.Write("그누나 내꺼");
-                  
-            }
-/*            double end = 5;
-            double bar = 100;
-
-            Console.WriteLine((start*end) + bar);
-            Console.WriteLine(end+bar);
-            Console.WriteLine((end+bar)*start);
+            Console.WriteLine("110 :" + start * end + bar);
+            Console.WriteLine(end + bar);
+            Console.WriteLine((end + bar) * start);
             Console.WriteLine("시작" + start);
-            Console.WriteLine("끝에서 시작 뺀것/100 + 시작 : 2.03?" + (((end - start) / bar)+ start));*/
+            Console.WriteLine("끝에서 시작 뺀것/100 + 시작 : 2.03?" + (((end - start) / bar) + start));
         }
     }
 }
